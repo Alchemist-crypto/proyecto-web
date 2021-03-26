@@ -3,20 +3,16 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#menu-new{
+    display: flex;
+}
+.wrap-container{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: end;
+}
+li{
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
